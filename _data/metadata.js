@@ -1,11 +1,12 @@
 module.exports = {
-	title: "Eleventy Base Blog v8",
+	title: "Y",
+	logo: "y-high-resolution-log.jpeg",
 	url: "https://example.com/",
 	language: "en",
-	description: "I am writing about my experiences as a naval navel-gazer.",
+	description: "This blog is part of a project to learn about static site generators.",
 	author: {
-		name: "Your Name Here",
-		email: "youremailaddress@example.com",
+		name: "Joseph Carter",
+		email: "joey.carter555@gmail.com",
 		url: "https://example.com/about-me/"
 	}
 }
