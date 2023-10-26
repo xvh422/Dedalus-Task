@@ -1,5 +1,6 @@
 module.exports = {
-	title: "Eleventy Base Blog v8",
+	title: "Y",
+	logo: "y-high-resolution-log.jpeg",
 	url: "https://example.com/",
 	language: "en",
 	description: "This blog is part of a project to learn about static site generators.",
