@@ -4,6 +4,7 @@ description: This is a post on My Blog about AI-Generated Blog Posts.
 date: 2023-01-23
 tags:
   - one more tag
+  - best number
 ---
 ## Introduction
 
