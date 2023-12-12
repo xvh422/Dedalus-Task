@@ -41,6 +41,11 @@
 			.button {
 				text-decoration: none;
 			}
+			footer p {
+				margin: 10px;
+				display: flex;
+				justify-content: center;
+			}
 		</style>
 	</head>
 	<body id="body">
@@ -80,12 +85,12 @@
 			{{ content | safe }}
 		</main>
 
-		<footer>
-			<p>Telephone: +44 1525 248395</p>
+		<footer style="background: blue; color: white;">
+            <p style="padding-top: 10px;">Telephone: +44 1525 248395</p>
 			<p>Email: help@priorityhealth.co.uk</p>
 			<p>Privacy Notice</p>
-			<p>Address:</p>
-		</footer>
+			<p style="padding-bottom: 10px;"><a href="https://www.google.com/maps/place/Leeds+City+Centre,+Leeds/@53.7989371,-1.5674921,15z/data=!3m1!4b1!4m6!3m5!1s0x48795c1e046c24a9:0x716fc89a6553a7e4!8m2!3d53.7995746!4d-1.5471022!16zL20vMGRzbTFx?authuser=0&entry=ttu" target="blank">Where to find us</a></p>
+        </footer>	
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 		<!-- Current page: {{ page.url | htmlBaseUrl }} -->
 	</body>
